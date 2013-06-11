@@ -42,7 +42,6 @@
         <Command type="AfterBuild" command="mv System.Net.Droid.dll System.Net.dll" workingdir="${TargetDir}" />
       </CustomCommands>
     </CustomCommands>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>

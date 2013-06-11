@@ -91,11 +91,11 @@
   </ItemGroup>
   <ItemGroup Condition="'$(OS)' == 'Windows_NT'">
     <ProjectReference Include="..\..\PortableSupport\System.Net.Touch\System.Net.csproj">
-      <Project>{13d0cb9b-25ec-48e0-9091-4ff0208545ca}</Project>
+      <Project>{13D0CB9B-25EC-48E0-9091-4FF0208545CA}</Project>
       <Name>System.Net</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\PortableSupport\System.Windows.Touch\System.Windows.csproj">
-      <Project>{9499e72b-fd7c-4a9b-ab6c-0f9b7359257c}</Project>
+      <Project>{9499E72B-FD7C-4A9B-AB6C-0F9B7359257C}</Project>
       <Name>System.Windows</Name>
     </ProjectReference>
   </ItemGroup>

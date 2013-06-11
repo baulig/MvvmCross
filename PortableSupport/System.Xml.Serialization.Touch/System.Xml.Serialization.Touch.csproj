@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3F51A706-7BE0-4B53-AEE9-A4FB5DEE57B2}</ProjectGuid>
@@ -10,6 +10,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>System.Xml.Serialization.Touch</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>SystemXmlSerializationTouch</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
     <AssemblyName>System.Xml.Serialization.Touch</AssemblyName>
@@ -40,6 +41,16 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <OutputPath>..\..\bin\Debug\Mvx\Touch\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType />
+    <Optimize>false</Optimize>
+    <ConsolePause>true</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType />
+    <Optimize>false</Optimize>
+    <ConsolePause>true</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Forwarding.cs" />
