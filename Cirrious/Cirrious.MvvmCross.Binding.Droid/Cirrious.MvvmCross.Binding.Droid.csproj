@@ -43,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Windows" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Binders\ViewTypeResolvers\IMvxAxmlNameViewTypeResolver.cs" />
@@ -127,10 +128,6 @@
     <ProjectReference Include="..\Cirrious.MvvmCross.Localisation\Cirrious.MvvmCross.Localization.csproj">
       <Project>{D89351C1-D48F-4AD0-A0B9-353A93425AB7}</Project>
       <Name>Cirrious.MvvmCross.Localization</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\PortableSupport\System.Windows\System.Windows.Droid.csproj">
-      <Project>{72D13EE1-53A3-4A9F-9281-AE44CC5E92AC}</Project>
-      <Name>System.Windows.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
